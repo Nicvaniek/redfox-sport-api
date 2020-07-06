@@ -11,8 +11,8 @@ public interface NewsApiClient {
     
     @GetMapping(path = "/top-headlines")
     TopHeadlinesResponse getTopHeadlines(
-        @RequestParam("country") String country, 
-        @RequestParam("apiKey") String apiKey, 
+        @RequestParam("country") String country,
+        @RequestParam("apiKey") String apiKey,
         @RequestParam("category") String category
     );
 }

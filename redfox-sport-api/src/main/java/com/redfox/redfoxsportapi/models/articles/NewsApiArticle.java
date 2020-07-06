@@ -1,12 +1,12 @@
-package com.redfox.redfoxsportapi.models.news;
+package com.redfox.redfoxsportapi.models.articles;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class Article {
-    private Source source;
+public class NewsApiArticle {
+    private NewsApiSource source;
     private String author;
     private String title;
     private String description;

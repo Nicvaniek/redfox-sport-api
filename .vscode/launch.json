@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RedFoxApiApplication<redfox-sport-api>",
+            "request": "launch",
+            "mainClass": "com.redfox.redfoxsportapi.RedFoxApiApplication",
+            "projectName": "redfox-sport-api",
+            "env": {
+                "NEWS_API_KEY": "def659578bf8422b976543e4dbfe5caf",
+                "NEWS_API_SPORT_COUNTRY": "za",
+                "NEWS_API_CATEGORY": "sports"
+            }
+        }
+    ]
+}
