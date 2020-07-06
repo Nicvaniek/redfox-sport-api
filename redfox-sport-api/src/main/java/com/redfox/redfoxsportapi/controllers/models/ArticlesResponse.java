@@ -2,7 +2,7 @@ package com.redfox.redfoxsportapi.controllers.models;
 
 import java.util.List;
 
-import com.redfox.redfoxsportapi.models.news.Article;
+import com.redfox.redfoxsportapi.models.articles.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
